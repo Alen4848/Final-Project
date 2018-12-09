@@ -297,15 +297,4 @@
     }
 
 
-    /**
-     * make the score digits bigger +
-     * when someone scores, ball should start with its initial speed to the opposit direction +
-     * user-interface +-
-     * when ending the game, final score should be as it is +
-     * sometimes ball is stuck on top or in bottom, fix this - 
-     * target score is 8 -
-     * with each score paddle height becomes smaller and smaller -
-     * multiplayer mode -
-     * bounce from padlles, do not get into it -
-     * (PADDLE 2 movement) when ball is far enough do not move -
-     */
+

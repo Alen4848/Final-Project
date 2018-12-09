@@ -22,18 +22,6 @@
     var zzveliTxaya = document.getElementById('zzveliTxa');
     var imonqEn = document.getElementById('imonqEn');
     
-    
-    // classic cavy tanem amena skzbic
-    // var classGago = document.getElementById('classicGago');
-    // let classicG = true;
-
-    // function playGago(){
-    //     if(classicG){
-    //         play(classGago);
-    //     }
-    //     classicG = false;
-    // }
-
     //array that stores all the reaction sounds 
     var soundArr = [" ", toAnasun, zzveliTxaya, imonqEn];
 
@@ -241,7 +229,6 @@
         paddle2.update();
         displayScore(); 
         showNet();
-        // playGago(); 
     }
 
 
@@ -271,51 +258,4 @@
     }
 
 
-    /**
-     * make the score digits bigger +
-     * when someone scores, ball should start with its initial speed to the opposit direction +
-     * user-interface +-
-     * when ending the game, final score should be as it is +
-     * multiplayer mode +
-     * 
-     * 
-     * sometimes ball is stuck on top or in bottom, fix this - 
-     * with each score paddle height becomes smaller and smaller -
-     * finalize reaction part
-     * 
-     * 
-     *      =====Andre Part=====
-     *          cange colors-
-     *          make buttons symmetric-
-     *          add "GO Back" button-
-     * 
-     *  =====Alen Part=====
-     * 
-     *  =====Grig Part=====
-     * 
-     */
-
-
-
-
-
-     /**
-      * 
-      * 
-      * ai+
-      * ball movement+
-      * 
-      * 
-      * 
-      * 
-      * mknik+
-      * multiplayer
-      * ball movement
-      * sound effects
-      * interface
-      * 
-      * 
-      * GRIG - ai, ball movement
-      * Alen - sound, knopkeqov  
-      * Andre - mouse movement, interface, html, css, key-responsive functions  
-      */
+   
